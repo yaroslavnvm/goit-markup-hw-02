@@ -9,8 +9,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  width: 115px;
-  height: 24px;
 }
 .main-nav {
 }
@@ -25,11 +23,11 @@
 .main-nav-link:hover,
 .main-nav-link:focus,
 .main-nav-link:active {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -40,13 +38,4 @@
 .address-item {
 }
 .address-link {
-}
-
-.address-link:hover {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #404bbf;
 }
